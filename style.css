@@ -1,0 +1,114 @@
+/* UTIL */
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:wght@500&family=Work+Sans:wght@500&display=swap');
+
+  body{
+    font-family: 'Poppins', sans-serif;
+  }
+
+.nav{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 50px;
+}
+.title{
+    margin-right: 250px;
+    color: #3E3E3E; 
+}
+.nav a{
+    text-decoration: none;
+   padding: 20px;
+   color: #3E3E3E;
+}
+
+.carousel{
+    margin-top: 50px;
+}
+
+/* EVERY MOMENT */
+.every-moment{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin: 100px 150px;
+}
+
+.every-moment-title{
+    color: #0e0d0d;
+    font-weight: 700px;
+    font-size: 35px;
+}
+.every-moment-des p{
+    color: #6C6C6C;
+}
+.every-moment .btn{
+  background-color: #3F87F5;
+  color: white;
+}
+
+/* CARD SECTION */
+.our-package{
+    display: flex;
+    gap: 20px;
+   
+}
+
+.card:hover{
+    background-color: #3F87F5;
+    border-radius: 30px;
+    color: white;
+ 
+}
+.our-package-title{
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+/* HAPPY CLIENT */
+.clients{
+    margin-top: 100px;
+    display: flex;
+    gap: 30px;
+}
+.client{
+    height: 300px;
+    width: 323px;
+    box-shadow: 1px 1px 3px 3px rgb(209, 199, 199);
+   text-align: center;
+   border-radius: 10px;
+}
+.client p{
+    margin-top: 20px;
+    color: #6C6C6C;
+}
+.client-title{
+    text-align: center;
+    margin-top: 80px;
+}
+/* FAQ */
+.faq-title{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.FAQ{
+ width: 600px;
+}
+.FAQ-flex{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.FAQ-img img{
+    width: 400px;
+}
+/* FOOTER */
+.footer{
+    display: flex;
+    background-color: #0e0d0d;
+    color: white;
+    padding: 100px;
+    justify-content: space-between;
+}
